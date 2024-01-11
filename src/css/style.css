@@ -86,6 +86,11 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.container form input[type="submit"]:active { 
+  background-color: hsl(154, 79%, 61%);
 }
 
 .container form .terms-services {
