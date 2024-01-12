@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  body {
+    background: url(../images/bg-intro-mobile.png);
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .container .company {
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .container .company .title {
+    font-size: 30px;
+  }
+
+  .container .company .description {
+    font-size: 17px;
+    width: 75%;
+    margin: 20px auto 0;
+  }
+
+  .container .register .link .sell {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .container form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
