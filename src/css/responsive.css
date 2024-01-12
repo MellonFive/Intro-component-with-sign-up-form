@@ -1,8 +1,4 @@
 @media (max-width: 768px) {
-  body {
-    background: url(../images/bg-intro-mobile.png);
-  }
-  
   .container {
     height: 100vh;
     display: flex;
