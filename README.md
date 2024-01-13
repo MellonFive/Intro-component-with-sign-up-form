@@ -40,3 +40,6 @@ Uma landing page para praticar o conceito de form. *No futuro irei validar os in
 
 Você pode visualizar o site do Front-End Mentor cliando [aqui](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1").
 
+## Conclusão
+
+Tive uma certa dificuldade para praticar esse projeto no modo responsivo. Não estava conseguindo deixar o fundo rosa preenchendo o fundo inteiro do body. Foi quando percebi que alguns elementos de largura e altura, precisam ser colocados na tag body na hora da estilização.
