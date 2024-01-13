@@ -1,6 +1,5 @@
 @media (max-width: 768px) {
   .container {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,8 +19,8 @@
 
   .container .company .description {
     font-size: 17px;
-    width: 75%;
-    margin: 20px auto 0;
+    width: 100%;
+    margin: 30px auto 0;
   }
 
   .container .register .link .sell {

@@ -1,27 +1,17 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background: url(../images/bg-intro-mobile.png) center;
+  background-color: var(--Primary-Red);
+  height: 100vh;
+  max-width: 1440px;
 }
 
 .container {
-  background: url(../images/bg-intro-desktop.png) no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  max-width: 1440px;
-  padding: 0 150px;
+  padding: 100px 150px 0;
   gap: 50px;
-  position: relative;
-}
-
-.container::after {
-  content: "";
-  width: 100%;
-  height: 100vh;
-  background-color: var(--Primary-Red);
-  position: absolute;
-  z-index: -9999;
-  opacity: 0.9;
 }
 
 .container .company {
