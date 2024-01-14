@@ -42,5 +42,6 @@ Você pode visualizar o site do Front-End Mentor cliando [aqui](https://www.fron
 
 ## 📄 Conclusão
 
-<p>Tive uma certa dificuldade para praticar esse projeto no modo responsivo. Não estava conseguindo deixar a cor de fundo rosa preenchendo a body inteira na altura. </p> 
-<p> Graças a ajuda de comunidades, foi quando percebi que alguns elementos de largura e altura, precisam ser colocados na tag body na hora da estilização. </p>
+<p>Tive uma certa dificuldade para praticar esse projeto no modo responsivo. Não estava conseguindo deixar a cor de fundo rosa preenchendo a body inteira na altura.</p>
+
+<p>Graças a ajuda de comunidades, foi quando percebi que alguns elementos de largura e altura, precisam ser colocados na tag body na hora da estilização.</p>
