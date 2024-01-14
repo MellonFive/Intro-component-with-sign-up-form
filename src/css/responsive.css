@@ -41,6 +41,10 @@
     font-size: 17px;
   }
 
+  .container .register {
+    width: 20rem;
+  }
+
   .container .register .link .sell {
     padding: 20px 30px;
   }
