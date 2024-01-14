@@ -1,9 +1,13 @@
+@media (max-width: 375px) {
+  .container .company .title {
+    background-color: black;
+    font-size: 15px;  
+  }
+}
+
 @media (max-width: 768px) {
   .container {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
     padding: 50px;
   }
 
