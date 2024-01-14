@@ -1,4 +1,4 @@
-/* Não trabalhar com width com porcentagens do tipo 50% 30%, normalmente quando eu preciso usar o width ou é com uma medida fixa como px/rem ou 100% */
+/* Não trabalhar com width com porcentagens do tipo 50% 30%, normalmente usar o width ou é com uma medida fixa como px/rem ou 100% */
 
 @media (max-width: 768px) {
   .container {
