@@ -1,3 +1,5 @@
+/* Não trabalhar com width com porcentagens do tipo 50% 30%, normalmente quando eu preciso usar o width ou é com uma medida fixa como px/rem ou 100% */
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -6,7 +8,6 @@
 
   .container .company {
     margin-top: 30px;
-    width: 50%;
     text-align: center;
   }
 
@@ -26,20 +27,29 @@
   }
 
   .container form {
-    width: 100%;
     margin-bottom: 30px;
   }
 }
 
 @media (max-width: 375px) {
   .container .company .title {
-    font-size: 15px;
+    font-size: 30px;
     margin: auto;
-    padding: 0;
   }
 
   .container .company .description {
-    background-color: red;
-    font-size: 12px;
+    font-size: 17px;
+  }
+
+  .container .register .link .sell {
+    padding: 20px 30px;
+  }
+
+  .container form {
+    padding: 20px;
+  }
+
+  .container form .button-form {
+    font-weight: 300;
   }
 }

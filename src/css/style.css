@@ -15,7 +15,7 @@ body {
 }
 
 .container .company {
-  width: 50%;
+  width: 100%;
 }
 
 .container .company .title, .container .company .description {
@@ -44,7 +44,7 @@ body {
 }
 
 .container .register {
-  width: 50%;
+  width: 100%;
 }
 
 .container form {
@@ -79,6 +79,7 @@ body {
   outline: none;
   cursor: pointer;
   transition: .3s ease-in-out;
+  border-radius: 5px;
 }
 
 .container form .button-form:active { 
